@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!---bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: white;
+
+        }
+
+        /* navbar*/
+        .navbar {
+            background-color: #080a0e;
+
+        }
+
+
+        /*contact management system*/
+        .home {
+            background: linear-gradient(120deg, #f4a0c3, #4c183d);
+            padding: 80px 20px;
+            color: white;
+            text-align: center;
+        }
+
+
+        /* feature card */
+        .middle{
+            padding-bottom:40px;
+        }
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 25px #ae3f91;
+            transition: 0.3s;
+            
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold"> <i class="bi bi-person-lines-fill"></i>>ZENVIO</a>
+            <ul class="navbar-nav ms-auto"> |
+                <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#contacts">CONTACTS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--contact management system-->
+    <section class="home">
+        <h1>CONTACT MANAGEMENT SYSTEM</h1>
+        <p>Efficient access and management of structured contact information</p>
+    </section>
+
+    <!--features-->
+    <section id="features" class="container py-5">
+        <h3 class= " middle text-center section-title fw-bold" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Features</h3>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="feature-icon text-primary">
+                        <i class="bi bi-person-plus-fill"></i>
+                    </div>
+                    <h5>ADD CONTACTS</h5>
+                    <P>Save contact details</P>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="feature-icon text-primary">
+                        <i class="bi bi-pencil-square"></i>
+                    </div>
+                    <h5>Edit and update</h5>
+                    <P>Update contact information</P>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <div class="feature-icon text-primary">
+                        <i class="bi bi-trash3-fill"></i>
+                    </div>
+                    <h5>Delete Contacts</h5>
+                    <P>Remove unwanted contacts</P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
